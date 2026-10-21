@@ -1,0 +1,36 @@
+{
+  "name": "gemma_10k",
+  "split": "dev",
+  "results": [
+    {
+      "direction": "en-es",
+      "n": 100,
+      "chrF++": 42.37,
+      "BLEU": 17.35,
+      "ms_per_sentence_batched": 217.7
+    },
+    {
+      "direction": "es-en",
+      "n": 100,
+      "chrF++": 49.89,
+      "BLEU": 20.76,
+      "ms_per_sentence_batched": 127.9
+    },
+    {
+      "direction": "en-fr",
+      "n": 100,
+      "chrF++": 44.61,
+      "BLEU": 20.0,
+      "ms_per_sentence_batched": 137.0
+    },
+    {
+      "direction": "fr-en",
+      "n": 100,
+      "chrF++": 54.13,
+      "BLEU": 27.96,
+      "ms_per_sentence_batched": 139.6
+    }
+  ],
+  "chrF_signature": "nrefs:1|case:mixed|eff:yes|nc:6|nw:2|space:no|version:2.6.0",
+  "BLEU_signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.6.0"
+}

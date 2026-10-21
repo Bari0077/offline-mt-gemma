@@ -1,0 +1,49 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+.python-version.local
+
+# Secrets
+.env
+*.token
+
+# Data and models (never commit)
+data/
+datasets/
+checkpoints/
+outputs/
+adapters/
+*.safetensors
+*.bin
+*.pt
+
+# Experiment tracking (local MLflow store)
+mlruns/
+mlflow.db
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
+
+# Training runs: checkpoints and adapters stay local
+runs/
+
+# Model weights anywhere
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Per-sentence outputs containing FLORES+ text (adjust to your file names)
+results/**/*.jsonl
+results/**/*.tsv
+results/**/*.txt
+results/**/*.hyp.txt

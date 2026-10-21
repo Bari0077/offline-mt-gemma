@@ -1,0 +1,36 @@
+{
+  "name": "marian",
+  "split": "dev",
+  "results": [
+    {
+      "direction": "en-es",
+      "n": 100,
+      "chrF++": 54.6,
+      "BLEU": 29.7,
+      "ms_per_sentence_batched": 111.5
+    },
+    {
+      "direction": "es-en",
+      "n": 100,
+      "chrF++": 56.93,
+      "BLEU": 27.66,
+      "ms_per_sentence_batched": 99.3
+    },
+    {
+      "direction": "en-fr",
+      "n": 100,
+      "chrF++": 66.01,
+      "BLEU": 44.57,
+      "ms_per_sentence_batched": 113.1
+    },
+    {
+      "direction": "fr-en",
+      "n": 100,
+      "chrF++": 62.89,
+      "BLEU": 36.43,
+      "ms_per_sentence_batched": 101.5
+    }
+  ],
+  "chrF_signature": "nrefs:1|case:mixed|eff:yes|nc:6|nw:2|space:no|version:2.6.0",
+  "BLEU_signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.6.0"
+}

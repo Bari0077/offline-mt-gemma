@@ -1,0 +1,36 @@
+{
+  "name": "gemma_zeroshot",
+  "split": "dev",
+  "results": [
+    {
+      "direction": "en-es",
+      "n": 100,
+      "chrF++": 22.57,
+      "BLEU": 4.19,
+      "ms_per_sentence_batched": 136.3
+    },
+    {
+      "direction": "es-en",
+      "n": 100,
+      "chrF++": 43.11,
+      "BLEU": 15.77,
+      "ms_per_sentence_batched": 127.4
+    },
+    {
+      "direction": "en-fr",
+      "n": 100,
+      "chrF++": 23.35,
+      "BLEU": 4.03,
+      "ms_per_sentence_batched": 115.2
+    },
+    {
+      "direction": "fr-en",
+      "n": 100,
+      "chrF++": 45.55,
+      "BLEU": 19.01,
+      "ms_per_sentence_batched": 146.7
+    }
+  ],
+  "chrF_signature": "nrefs:1|case:mixed|eff:yes|nc:6|nw:2|space:no|version:2.6.0",
+  "BLEU_signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.6.0"
+}

@@ -1,0 +1,29 @@
+[project]
+name = "offline-translator"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Baran Dello", email = "dello.baran@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "accelerate>=1.15.0",
+    "datasets>=5.1.0",
+    "mlflow>=3.17.1",
+    "pandas>=3.0.6",
+    "peft>=0.21.2",
+    "sacrebleu>=2.6.0",
+    "sacremoses>=0.2.0",
+    "sentencepiece>=0.2.2",
+    "torch>=2.14.1",
+    "transformers>=5.20.2",
+    "trl>=1.16.0",
+]
+
+[project.scripts]
+offline-translator = "offline_translator:main"
+
+[build-system]
+requires = ["uv_build>=0.12.23,<0.13.0"]
+build-backend = "uv_build"
